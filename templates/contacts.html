@@ -27,6 +27,7 @@
             width: 50px;
             margin: 0px;
         }
+
     </style>
 </head>
 <body>
@@ -78,59 +79,55 @@
     <div class="col-10">
         <div class="container-fluid px-4">
         <h1>
-            <p class="text-center mt-5">Главная</p>
+            <p class="text-center">
+              <br>
+              <br>
+              Контакты
+            </p>
         </h1>
-        <p class="text-body-secondary text-center">Вы находитесь на сайте, предназначенном для продажи товаров</p>
 
-        <div class="row mt-3 justify-content-center">
-            <div class="col-sm-3 mt-3 mx-auto">
+        <div class="row mt-5 justify-content-center align-items-start">
+            <div class="col-12 col-lg-4">
                 <div class="card">
-                    <div class="card-header">
-                        <h4>
-                            <p class="text-center">Товар 1</p>
-                        </h4>
-                    </div>
                     <div class="card-body">
-                        <h3>
-                            <p class="text-center">$ 100</p>
-                        </h3>
-                        10 users included, 2 GB of storage, Email support, Help center access <br>
-                        <button type="button" class="btn btn-outline-primary w-100 mt-3">Купить</button>
+                        <form method="POST" action="/contacts">
+                            <p class="text-start fw-semibold">Имя</p>
+                            <div class="mb-3 mt-2">
+                                <input type="text" class="form-control" name="name" placeholder="Имя" required>
+                            </div>
+                            <p class="text-start fw-semibold">Почта</p>
+                            <div class="input-group flex-nowrap">
+                              <span class="input-group-text" id="addon-wrapping">@</span>
+                              <input type="email" class="form-control" name="email" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                            </div>
+
+                            <div class="mb-3 mt-2">
+                              <p class="text-start fw-semibold">Сообщение</p>
+                                <textarea class="form-control" name="message" placeholder="Сообщение" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-40">Отправить</button>
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 mt-3 mx-auto">
-                <div class="card">
-                    <div class="card-header">
-                        <h4>
-                            <p class="text-center">Товар 1</p>
-                        </h4>
-                    </div>
-                    <div class="card-body">
-                        <h3>
-                            <p class="text-center">$ 100</p>
-                        </h3>
-                        10 users included, 2 GB of storage, Email support, Help center access <br>
-                        <button type="button" class="btn btn-outline-primary w-100 mt-3">Купить</button>
-                    </div>
-                </div>
+
+            <div class="col-12 col-lg-6">
+
+              <h3>
+                <p class="text-start ms-5">Наши контакты</p>
+              </h3>
+
+              <p class="text-start ms-5 fw-semibold fs-5">
+                Netflix is a streaming service that offers
+                a wide variety of award-winning TV shows, movies, anime,
+                documentaries, and more on thousands of internet-connected devices. <br>
+                You can watch as much as you want, whenever you want
+                without a single commercial – all for one low monthly price.
+                There's always something new to discover and new TV shows
+                and movies are added every week!
+              </p>
             </div>
-            <div class="col-sm-3 mt-3 mx-auto">
-                <div class="card">
-                    <div class="card-header">
-                        <h4>
-                            <p class="text-center">Товар 1</p>
-                        </h4>
-                    </div>
-                    <div class="card-body">
-                        <h3>
-                            <p class="text-center">$ 100</p>
-                        </h3>
-                        10 users included, 2 GB of storage, Email support, Help center access <br>
-                        <button type="button" class="btn btn-outline-primary w-100 mt-3">Купить</button>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
     </div>

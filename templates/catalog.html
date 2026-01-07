@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .sidebar {
+            min-height: 100vh;
+            position: sticky;
+            top: 0;
+        }
+        .sidebar-content {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .menu-items {
+            flex: 1;
+        }
+        .user-dropdown {
+            margin-top: auto;
+            padding-bottom: 1rem;
+        }
+        img {
+            width: 50px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <!-- Левая панель -->
+    <div class="col-2 sidebar text-bg-secondary p-0">
+        <div class="sidebar-content">
+            <!-- Заголовок меню -->
+            <div class="p-3 ms-2 mt-4">
+                <h3>Меню</h3>
+            </div>
+
+            <!-- Кнопки меню -->
+            <div class="menu-items px-3">
+                <div class="btn-group-vertical w-100" role="group" aria-label="Vertical button group">
+                    <button type="button" class="btn btn-primary text-start">
+                        🏠︎ Главная
+                    </button>
+                    <button type="button" class="btn btn-secondary text-start">
+                        ⇈ Категории
+                    </button>
+                    <button type="button" class="btn btn-secondary text-start">
+                        ❒ Заказы
+                    </button>
+                    <button type="button" class="btn btn-secondary text-start">
+                        ☏ Контакты
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dropdown пользователя внизу -->
+            <div class="user-dropdown px-3">
+                <div class="dropdown">
+
+                    <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://avatars.mds.yandex.net/i?id=bf0845f6e13488c89d52095acd2e5bf2_l-4840969-images-thumbs&n=13" class="rounded-circle">
+                        Пользователь
+                    </button>
+                    <ul class="dropdown-menu w-100">
+                        <li><button class="dropdown-item" type="button">Профиль</button></li>
+                        <li><button class="dropdown-item" type="button">Выход</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Основное содержимое -->
+    <div class="col-10">
+
+        <div class="container">
+        <h1>
+            <p class="text-center mt-5">Каталог</p>
+        </h1>
+
+
+        <div class="row mt-3 justify-content-center">
+            <div class="col-sm-5 mb-3 mt-3 mx-auto">
+
+
+                        <div class="card">
+
+                              <img src="https://s.yimg.com/ny/api/res/1.2/kR1GeHE.n6OwL92.dWOXgw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/bbc_us_articles_995/afa73013d2f0dfbbddb8f7e20a91013d" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Название</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+
+                                  <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                                <button type="button" class="btn btn-outline-primary">View</button>
+                                                <button type="button" class="btn btn-outline-primary">Edit</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="fw-light text-sm-end">9 mins</p>
+                                            </div>
+                                        </div>
+                                  </div>
+
+
+                              </div>
+                        </div>
+
+            </div>
+
+            <div class="col-sm-5 mb-3 mt-3 mx-auto">
+
+
+                        <div class="card">
+
+                              <img src="https://s.yimg.com/ny/api/res/1.2/kR1GeHE.n6OwL92.dWOXgw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/bbc_us_articles_995/afa73013d2f0dfbbddb8f7e20a91013d" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Название</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+
+                                  <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                                <button type="button" class="btn btn-outline-primary">View</button>
+                                                <button type="button" class="btn btn-outline-primary">Edit</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="fw-light text-sm-end">9 mins</p>
+                                            </div>
+                                        </div>
+                                  </div>
+
+
+                              </div>
+                        </div>
+
+            </div>
+
+            <div class="col-sm-5 mb-3 mt-3 mx-auto">
+
+
+                        <div class="card">
+
+                              <img src="https://s.yimg.com/ny/api/res/1.2/kR1GeHE.n6OwL92.dWOXgw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/bbc_us_articles_995/afa73013d2f0dfbbddb8f7e20a91013d" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Название</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+
+                                  <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                                <button type="button" class="btn btn-outline-primary">View</button>
+                                                <button type="button" class="btn btn-outline-primary">Edit</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="fw-light text-sm-end">9 mins</p>
+                                            </div>
+                                        </div>
+                                  </div>
+
+
+                              </div>
+                        </div>
+
+            </div>
+
+            <div class="col-sm-5 mb-3 mt-3 mx-auto">
+                <div class="card">
+
+                              <img src="https://s.yimg.com/ny/api/res/1.2/kR1GeHE.n6OwL92.dWOXgw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/bbc_us_articles_995/afa73013d2f0dfbbddb8f7e20a91013d" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Название</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+
+                                  <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                                <button type="button" class="btn btn-outline-primary">View</button>
+                                                <button type="button" class="btn btn-outline-primary">Edit</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="fw-light text-sm-end">9 mins</p>
+                                            </div>
+                                        </div>
+                                  </div>
+
+
+                              </div>
+                        </div>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+    </div>
+
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
